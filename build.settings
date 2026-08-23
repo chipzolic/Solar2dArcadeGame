@@ -1,0 +1,12 @@
+-- build.settings
+settings = {
+    orientation = {
+        -- The initial orientation the app will launch into
+        default = "landscapeRight", 
+        
+        -- Supported orientations (allows the screen to rotate if flipped 180 degrees)
+        supported = { "landscapeRight", "landscapeLeft" },
+    },
+    
+    -- Remaining build configurations (Android, iPhone, etc.)
+}
